@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13 - Verificación de Voto</title>
+    
+</head>
+<body>
+
+    <div class="tarjeta">
+        <h2>Sistema de Votación</h2>
+        
+        <form onsubmit="return false;">
+            
+            <div class="grupo">
+                <label for="inputEdad">Ingresa tu edad:</label>
+                <input type="text" id="inputEdad" placeholder="Ej: 20">
+                <span id="mensajeError" class="error"></span>
+            </div>
+            
+            <div class="grupo">
+                <button type="button" id="btnVerificar">Verificar</button>
+            </div>
+            
+            <div class="grupo">
+                <label for="inputResultado">Estado:</label>
+                <!-- Caja de texto readonly -->
+                <input type="text" id="inputResultado" readonly placeholder="Esperando edad...">
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="js/ejercicio13.js"></script>
+    <a href="index.html">regresa index</a>
+
+</body>
+</html>

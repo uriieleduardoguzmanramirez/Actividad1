@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 - Conversor MXN a USD</title>
+    
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Calculadora de Divisas</h2>
+        
+        <form onsubmit="return false;">
+            
+            <div class="grupo">
+                <label for="inputMXN">Pesos Mexicanos (MXN):</label>
+                <input type="text" id="inputMXN" placeholder="Ej: 500">
+                <span id="mensajeError" class="error"></span>
+            </div>
+            
+            <div class="grupo">
+                <button type="button" id="btnConvertir">Convertir</button>
+            </div>
+            
+            <div class="grupo">
+                <label for="inputUSD">Dólares (USD):</label>
+                <input type="text" id="inputUSD" readonly placeholder="0.00">
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="js/ejercicio12.js"></script>
+    <a href="index.html">regresa index</a>
+
+</body>
+</html>
