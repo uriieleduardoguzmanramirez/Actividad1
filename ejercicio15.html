@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15 - Objetos en JavaScript</title>
+    
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Registro de Calificaciones</h2>
+        
+        <form onsubmit="return false;">
+            <div class="grupo">
+                <label for="inputNombre">Nombre del estudiante:</label>
+                <input type="text" id="inputNombre" placeholder="Ej: Juan">
+            </div>
+
+            <div class="grupo">
+                <label for="inputCalificacion">Calificación:</label>
+                <input type="text" id="inputCalificacion" placeholder="Ej: 85">
+                <span id="mensajeError" class="error"></span>
+            </div>
+            
+            <button type="button" id="btnAgregar">Agregar estudiante</button>
+            <span id="contadorEstudiantes">Total agregados: 0</span>
+
+            <hr>
+
+            <button type="button" id="btnCalcular">Calcular</button>
+            
+            <div class="grupo">
+                <label for="outPromedio">Calificación promedio:</label>
+                <input type="text" id="outPromedio" readonly placeholder="0">
+            </div>
+            
+            <div class="grupo">
+                <label for="outMejor">Estudiante con la calificación más alta:</label>
+                <input type="text" id="outMejor" readonly placeholder="-">
+            </div>
+
+            <div class="grupo">
+                <label for="outPeor">Estudiante con la calificación más baja:</label>
+                <input type="text" id="outPeor" readonly placeholder="-">
+            </div>
+        </form>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <a href="index.html">regresa index</a>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .contenedor {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 450px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+        .grupo {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        input[readonly] {
+            background-color: #e9ecef;
+            color: #212529;
+            font-weight: bold;
+            cursor: not-allowed;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #btnAgregar {
+            background-color: #198754;
+            color: white;
+        }
+        #btnAgregar:hover {
+            background-color: #157347;
+        }
+        #btnCalcular {
+            background-color: #0d6efd;
+            color: white;
+            margin-top: 10px;
+        }
+        #btnCalcular:hover {
+            background-color: #0b5ed7;
+        }
+        .error {
+            color: #dc3545;
+            font-size: 13px;
+            display: block;
+            margin-top: 5px;
+            min-height: 15px;
+        }
+        #contadorEstudiantes {
+            font-size: 14px;
+            color: #6c757d;
+            text-align: center;
+            display: block;
+            margin-bottom: 15px;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #dee2e6;
+            margin: 20px 0;
+        }
