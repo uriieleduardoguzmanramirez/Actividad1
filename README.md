@@ -35,14 +35,3 @@ También se verificó que los archivos CSS, JavaScript e imágenes funcionaran c
 - GitHub
 - GitHub Pages
 
-## Página publicada
-
-La página publicada en GitHub Pages se encuentra disponible en el siguiente enlace:
-
-https://uriieleduardoguzmanramirez.github.io/Actividad_1/
-
-## Repositorio
-
-El código del proyecto se encuentra en:
-
-https://github.com/uriieleduardoguzmanramirez/Actividad_1
